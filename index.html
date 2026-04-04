@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Huzaifa Shakeel Ahmed | LED Elite Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <strong>Muhammad Huzaifa Portfolio</strong>
+
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">☰</div>
+
+    <div class="menu" id="menu">
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a onclick="toggleTheme()" style="cursor:pointer">🌙</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>MUHAMMAD HUZAIFA SHAKEEL AHMED</h1>
+    <div class="typing" id="typing"></div>
+    <a href="https://drive.google.com/file/d/17rE6UpZBPmB5TjFAN6e0I7JeSSOT7jMF/view?usp=drive_link" class="CV" >View a CV</a>
+  </section>
+
+  <section class="container" id="skills">
+    <h2 class="title">Skills</h2>
+    <div class="skill">HTML<div class="bar">
+        <div class="fill" style="width:90%"></div>
+      </div>
+    </div>
+    <div class="skill">CSS<div class="bar">
+        <div class="fill" style="width:85%"></div>
+      </div>
+    </div>
+    <div class="skill">JavaScript<div class="bar">
+        <div class="fill" style="width:75%"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="services">
+    <h2 class="title">Services</h2>
+    <div class="grid">
+      <div class="card">Website Design</div>
+      <div class="card">Frontend Development</div>
+      <div class="card">Landing Page Creation</div>
+      <div class="card">Bug Fixing</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="projects">
+    <h2 class="title">Projects</h2>
+    <div class="grid">
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/css-grid/" target="_blank">CSS Card UI</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/Salt-n-Pepper-Website/" target="_blank">Salt n
+          Pepper
+          Clone</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/hackcton/" target="_blank">Hackathon
+          Project</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/Periodic-Table/" target="_blank">Periodic Table
+          in HTML</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/Js_Digital-Clock/" target="_blank">Digital
+          Clock</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/js_Todo-List_Assignment/" target="_blank">Todo
+          App</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/Js_Number-Guessing-Game-/" target="_blank">Number
+          Guessing Game</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/positivus/" target="_blank">Positivus</a></div>
+      <div class="card"><a href="https://muhammadhuzaifa1019.github.io/Second-Project/" target="_blank">Overlay</a>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="certificates">
+    <h2 class="title">Certificates</h2>
+    <div class="grid">
+      <div class="card"><a
+          href="https://raw.githubusercontent.com/muhammadhuzaifa1019/------------------/refs/heads/main/images/pic/Capture.PNG"
+          target="_blank">Professional Cisco Certificate 1</a></div>
+      <div class="card"><a
+          href="https://raw.githubusercontent.com/muhammadhuzaifa1019/------------------/refs/heads/main/images/Capture.PNG"
+          target="_blank"> Professional Cisco Certificate 2</a></div>
+      <div class="card"><a
+          href="https://raw.githubusercontent.com/muhammadhuzaifa1019/dummy-site/refs/heads/main/picture/Capture.PNG"
+          target="_blank">Third Certificate</a></div>
+      <div class="card"><a
+          href="https://raw.githubusercontent.com/muhammadhuzaifa1019/dummy-website/refs/heads/main/iamge/Capture.PNG"
+          target="_blank">Fourth Certificate</a></div>
+    </div>
+    </div>
+  </section>
+  <section class="container" id="contact">
+    <h2 class="title">Contact Me</h2>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Message"></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>© 2026 MUHAMMAD HUZAIFA SHAKEEL AHMEM — Portfolio</footer>
+  <script src="ap.js"></script>
+</body>
+
+</html>
