@@ -10,7 +10,7 @@ function toggleTheme() { document.body.classList.toggle('light') }
 // typing effect
 const words = ["Full Stack Developer", "Frontend Specialist", "JavaScript Learner"];
 let i = 0, j = 0, current = "", isDeleting = false;
-
+    
 function type() {
     current = words[i];
     document.getElementById('typing').textContent = current.substring(0, j);
