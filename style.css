@@ -2,9 +2,9 @@
 
 body{
   font-family:Poppins;
-  background:#020617;
+  background: url("./picture/background.avif") no-repeat center center/cover;
   color:#e2e8f0;
-}
+} 
 
 /* LOADER */
 #loader{
@@ -241,4 +241,12 @@ input,textarea{padding:10px;}
 @keyframes scroll{
   0%{transform:translateX(0);}
   100%{transform:translateX(-50%);}
+}
+
+
+
+.typing-name{
+  font-size:40px;
+  color:#22d3ee;
+  margin-bottom:5px;
 }
